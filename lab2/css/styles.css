@@ -19,8 +19,7 @@ header {
 header img {
     display: block;
     width: 30%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }   
 
 header h1 {
@@ -94,5 +93,4 @@ footer {
     text-align: center;
     color: black;
     font-size: 1.5em;
-
 }
