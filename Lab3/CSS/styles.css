@@ -1,7 +1,7 @@
 body {
     background-color: #68AAB6;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 img {
@@ -25,7 +25,7 @@ header {
 header h1 {
     text-align: center;
     font-size: 2.5em;
-    font-family: cursive;
+    font-family: 'irish Grover', cursive;
 }
 
 .col {
@@ -38,7 +38,7 @@ header h1 {
 .col h2 {
     text-align: center;
     font-size: 2em;
-    font-family: inherit;
+    font-family: 'inherit', cursive;
 }
 
 .col img {
@@ -54,7 +54,7 @@ footer {
     text-align: center;
     border-top: 4px solid #25473C;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'monospace', cursive;
     font-size: 1.5em;
 }
 
