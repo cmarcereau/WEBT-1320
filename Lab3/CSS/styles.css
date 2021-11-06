@@ -54,7 +54,7 @@ footer {
     text-align: center;
     border-top: 4px solid #25473C;
     font-weight: bold;
-    font-family: 'monospace', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
 }
 
@@ -88,11 +88,11 @@ footer {
 
     .col {
         margin: 20px;
-        width: 100%;
+        width: 50%;
     }
 
     .col img {
-        width: 100%;
+        width: 50%;
     }
 
     .main_img {
