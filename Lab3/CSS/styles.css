@@ -78,7 +78,7 @@ footer {
         width: 55%;
         border-radius: 30px;
     }
-    
+
     #flex {
         display: flex;
     }
@@ -94,7 +94,7 @@ footer {
 
     .main_img {
         display: block;
-        width: 35%;
+        width: 30%;
         margin: 20px auto;
     }
 }
