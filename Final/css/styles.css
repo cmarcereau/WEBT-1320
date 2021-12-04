@@ -1,19 +1,17 @@
 body {
     background-color: #68AAB6;
     font-size: 18px;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
+    font-family: 'crafty girls', cursive;
+    color: #000;
+    font-size: bold;
 }
 
 /* Mobile Styles */
 
 #container {
     background-color: whitesmoke;
-    margin: 40px;
+    margin: 40px auto;
+    border-radius: 30px;
 }
 
 header {
