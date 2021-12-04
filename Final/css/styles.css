@@ -1,6 +1,6 @@
-/* Global Styles */
 body {
-    background-color: #848C49;
+    background-color: #68AAB6;
+    font-size: 18px;
 }
 
 img {
@@ -9,24 +9,22 @@ img {
     margin: 0 auto;
 }
 
-
 /* Mobile Styles */
 
 #container {
-    background-color: #176607 ;
-    margin: 10px;
+    background-color: whitesmoke;
+    margin: 40px;
 }
 
 header {
-    background-image: url('../images/main.jpg');
-    background-size: cover;
-    padding: 60px 0;
+    padding: 60px 40px;
+    border-bottom: 4px solid darkslateblue;
 }
 
 header h1 {
-    color: #000;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
+    font-family: 'Crafty Girls', cursive;
 }
 
 nav ul {
@@ -40,8 +38,8 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #176607;
-    color: #F2CF8D;
+    background-color: slategrey;
+    color: black;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -52,20 +50,20 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color:#70bf4b;
-    text-shadow: 2px 2px 2px #000;
+    background-color:gray;
+    text-shadow: 1px 1px 1px whitesmoke;
 }
 
 nav, section, aside, .col, footer {
-    background-color: #F2CF8D;
+    background-color: lightsteelblue;
     padding: 10px;
     margin: 10px;
-    border: 4px solid #176607;
+    border: 4px solid #000;
     border-radius: 10px;
 }
 
 h2, h3 {
-    color: #176607;
+    color: darkslateblue;
     text-shadow: 2px 2px 2px;
     font-size: 2em;
     text-align: center;
@@ -75,10 +73,31 @@ section img, aside img {
     width: 50%;
 }
 
+.col {
+    border: 4px solid #000;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.col h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Finger Paint', cursive;
+}
+
+.col img {
+    width: 50%;
+}
+
+.main_img {
+    display: none;
+}
+
 .button {
     display: block;
-    background-color: #176607;
-    color: #F2CF8D;
+    background-color: darkslateblue;
+    color: white;
     height: 40px;
     width: 200PX;
     line-height: 40px;
@@ -90,13 +109,16 @@ section img, aside img {
 }
 
 .button:hover {
-    background-color: #70bf4b;
+    background-color: grey;
     text-shadow: 2px 2px 2px #000;
 }
 
 footer {
+    padding: 60px 0;
     text-align: center;
-    color: #176607;
+    border-top: 4px solid #25473C;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 1.5em;
 }
 
@@ -104,20 +126,8 @@ footer {
     width: 83%;
 }
 
-audio, video {
-    display: block;
-    margin: 20px auto;
-    width: 75%;
-}
-
-iframe {
-    display: block;
-    margin: 10px auto;
-
-}
-
 .gallery_img {
-    border: 4px solid #176607;
+    border: 4px solid #000;
     border-radius: 10px;
     margin: 10px auto;
 }
@@ -164,32 +174,39 @@ table {
     aside img {
         width: 50%;
     }
+    #container {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .col {
+        width: 65%;
+        margin: 30px auto;
+    }
 
     .col img {
-        width: 60%;
+        width: 30%;
         border-radius: 10px;
-        border: 4px solid #176607;
+        border: 4px solid #000;
     }
 
     .single_col {
-    width: 95%;
+        width: 95%;
     }
-
+    
     .gallery_img {
         display: none;
     }
 }
 
 
-
 /* Desktop Styles */
 
 @media(min-width: 1024px) {
     #container {
-        width: 65%;
-        border-radius: 4%;
-        border: #070706;
-        margin: 20px auto;
+        width: 80%;
+        border-radius: 20px;
+        border: #000;
+        margin: 10px auto;
     }
 
     header {
@@ -205,25 +222,33 @@ table {
     }
 
     .col {
-        width: 100%;
+        margin: 10px;
+        width: 50%;
     }
 
     .col img {
-        width: 100%;
+        width: 50%;
     }
 
-    .single_col {
-    width: 100%;
-    }
     
+    .single_col {
+        width: 50%;
+    }
+        
     .gallery_img{
         display: none;
     }
-    
+
+    .main_img {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+    }
+
     table, tr, td {
-        border: 4px solid #176607;
+        border: 4px solid #000;
         padding: 10px;
-        margin: 10px;
+        margin: 10px auto;
     }
 
     table img {
@@ -233,5 +258,4 @@ table {
     table {
         display: block;
     }
-
 }
